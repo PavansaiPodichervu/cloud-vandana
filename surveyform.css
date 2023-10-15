@@ -1,0 +1,45 @@
+/* Apply basic styling to the form container */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style form elements */
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the gender radio buttons */
+/* form input[type="radio"] {
+    margin: 5px;
+} */
+
+/* Style the submit and reset buttons */
+form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* form br {
+    margin: 10px 0;
+} */
+
+/* Center the form on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
