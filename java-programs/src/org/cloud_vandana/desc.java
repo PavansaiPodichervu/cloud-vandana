@@ -1,4 +1,4 @@
-package cloud_vandana;
+package org.cloud_vandana;
 
 import java.util.Arrays;
 import java.util.Scanner;

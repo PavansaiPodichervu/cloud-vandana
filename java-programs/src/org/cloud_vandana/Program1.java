@@ -1,4 +1,4 @@
-package cloud_vandana;
+package org.cloud_vandana;
 
 import java.util.Random;
 
@@ -8,7 +8,6 @@ public class Program1 {
 		int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
 		int n = arr.length;
 		Random rand = new Random();
-
 		for (int i = n - 1; i > 0; i--) {
 			int j = rand.nextInt(i + 1);
 			int temp = arr[i];
